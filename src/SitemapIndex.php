@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Sitemap;
+namespace Mikica\Spatie\Sitemap;
 
-use Spatie\Sitemap\Tags\Tag;
-use Spatie\Sitemap\Tags\Sitemap;
+use Mikica\Spatie\Sitemap\Tags\Tag;
+use Mikica\Spatie\Sitemap\Tags\Sitemap;
 
 class SitemapIndex
 {

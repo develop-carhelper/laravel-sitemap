@@ -1,17 +1,22 @@
 {
-    "name": "spatie/laravel-sitemap",
+    "name": "mikicaivosevic/laravel-sitemap",
     "description": "Create and generate sitemaps with ease",
     "keywords": [
         "spatie",
         "laravel-sitemap"
     ],
-    "homepage": "https://github.com/spatie/laravel-sitemap",
+    "homepage": "https://github.com/mikicaivosevic/laravel-sitemap",
     "license": "MIT",
     "authors": [
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Mikica Ivosevic",
+            "email": "mikica.ivosevic@gmail.com",
             "role": "Developer"
         }
     ],
@@ -32,11 +37,6 @@
             "Spatie\\Sitemap\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Spatie\\Sitemap\\Test\\": "tests"
-        }
-    },
     "scripts": {
         "test": "vendor/bin/phpunit"
     },
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Sitemap\\SitemapServiceProvider"
+                "Mikica\\Spatie\\Sitemap\\SitemapServiceProvider"
             ]
         }
     }

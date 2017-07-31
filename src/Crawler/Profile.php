@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Sitemap\Crawler;
+namespace Mikica\Spatie\Sitemap\Crawler;
 
 use Spatie\Crawler\Url;
 use Spatie\Crawler\CrawlProfile;
