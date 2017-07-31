@@ -27,6 +27,8 @@ class Url extends Tag
     /** @var float */
     public $priority = 0.8;
 
+    public $xhtmlLinks = [];
+
     public static function create(string $url): Url
     {
         return new static($url);
@@ -85,6 +87,13 @@ class Url extends Tag
     public function setPriority(float $priority)
     {
         $this->priority = $priority;
+
+        return $this;
+    }
+
+    public function addXhtmlLink($data)
+    {
+        $this->xhtmlLinks[] = $data;
 
         return $this;
     }
