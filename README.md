@@ -28,7 +28,17 @@ Sitemap::create()
         ->setLastModificationDate(Carbon::yesterday())
         ->setChangeFrequency(Url::CHANGE_FREQUENCY_YEARLY)
         ->setPriority(0.1))
-
+        ->addXhtmlLink([
+            'rel'      => 'alternate',
+            'hreflang' => 'en',
+            'href'     => '/en/home'
+        ])
+        ->addXhtmlLink([
+                    'rel'      => 'alternate',
+                    'hreflang' => 'de',
+                    'href'     => '/de/home'
+                ])
+        
    ->add(...)
 
    ->writeToFile($path);
