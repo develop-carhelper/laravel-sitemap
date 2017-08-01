@@ -1,6 +1,6 @@
 <?php
 
-namespace Mikica\Spatie\Sitemap;
+namespace Mikica\Sitemap;
 
 use Spatie\Crawler\Crawler;
 use Illuminate\Support\ServiceProvider;

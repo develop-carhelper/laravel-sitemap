@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mikica\\Spatie\\Sitemap\\SitemapServiceProvider"
+                "Mikica\\Sitemap\\SitemapServiceProvider"
             ]
         }
     }

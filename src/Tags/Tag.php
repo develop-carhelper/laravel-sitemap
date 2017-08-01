@@ -1,6 +1,6 @@
 <?php
 
-namespace Mikica\Spatie\Sitemap\Tags;
+namespace Mikica\Sitemap\Tags;
 
 abstract class Tag
 {
