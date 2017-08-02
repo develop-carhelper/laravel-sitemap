@@ -5,7 +5,7 @@
 First, install the package via composer:
 
 ``` bash
-composer require mikicaivosevic/laravel-sitemap
+composer require develop-carhelper/laravel-sitemap
 ```
 
 Next up: installing the service provider
@@ -14,7 +14,7 @@ Next up: installing the service provider
 // config/app.php
 'providers' => [
     ...
-    Mikica\Sitemap\SitemapServiceProvider::class,
+    Carhelper\Sitemap\SitemapServiceProvider::class,
 ];
 ```
 

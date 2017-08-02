@@ -1,6 +1,6 @@
 <?php
 
-namespace Mikica\Sitemap;
+namespace Carhelper\Sitemap;
 
 use Spatie\Crawler\Crawler;
 use Illuminate\Support\ServiceProvider;

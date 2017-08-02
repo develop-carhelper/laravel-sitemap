@@ -1,11 +1,11 @@
 <?php
 
-namespace Mikica\Sitemap;
+namespace Carhelper\Sitemap;
 
 use Spatie\Crawler\Crawler;
-use Mikica\Sitemap\Tags\Url;
-use Mikica\Sitemap\Crawler\Profile;
-use Mikica\Sitemap\Crawler\Observer;
+use Carhelper\Sitemap\Tags\Url;
+use Carhelper\Sitemap\Crawler\Profile;
+use Carhelper\Sitemap\Crawler\Observer;
 use Spatie\Crawler\Url as CrawlerUrl;
 use Psr\Http\Message\ResponseInterface;
 

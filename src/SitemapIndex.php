@@ -1,9 +1,9 @@
 <?php
 
-namespace Mikica\Sitemap;
+namespace Carhelper\Sitemap;
 
-use Mikica\Sitemap\Tags\Tag;
-use Mikica\Sitemap\Tags\Sitemap;
+use Carhelper\Sitemap\Tags\Tag;
+use Carhelper\Sitemap\Tags\Sitemap;
 
 class SitemapIndex
 {

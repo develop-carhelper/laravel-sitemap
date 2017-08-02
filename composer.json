@@ -1,11 +1,11 @@
 {
-    "name": "mikicaivosevic/laravel-sitemap",
+    "name": "develop-carhelper/laravel-sitemap",
     "description": "Create and generate sitemaps with ease",
     "keywords": [
         "spatie",
         "laravel-sitemap"
     ],
-    "homepage": "https://github.com/mikicaivosevic/laravel-sitemap",
+    "homepage": "https://github.com/develop-carhelper/laravel-sitemap",
     "license": "MIT",
     "authors": [
         {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mikica\\Sitemap\\SitemapServiceProvider"
+                "Carhelper\\Sitemap\\SitemapServiceProvider"
             ]
         }
     }

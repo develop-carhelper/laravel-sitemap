@@ -1,6 +1,6 @@
 <?php
 
-namespace Mikica\Sitemap\Tags;
+namespace Carhelper\Sitemap\Tags;
 
 abstract class Tag
 {
